@@ -13,7 +13,7 @@
     <link rel='stylesheet' href='stylesheets/reset.css' />
     <link rel='stylesheet' href='stylesheets/style.css' />
   </head>
-  <body>
+  <body itemscope itemtype="http://schema.org/Restaurant">
   	<img class="page-background" src="images/contactus-bg.jpg" alt="background"/>
   	<!-- GLOBAL: Side Navigation -->
   	<div class="navigation">
@@ -61,10 +61,11 @@
 	<div class="page-container contactus-container">
   		<div class="contact-info">
   			<img src="images/contact-title-bg.png" alt="Drunk Monkey" class="logo"/>
+  			<meta itemprop="name" content="Drunk Monkey | 醉猴披萨潮餐厅" />
   			<p class="helper-text">有关更多醉猴信息以及加盟联营事宜，请联系：</p>
-  			<p>服务热线： 400-810-6050</p>
-  			<p>手机： +86-186-1164-4487</p>
-  			<p>意见反馈邮箱：dt.dmpizza@gmail.com</p>
+  			<p>服务热线： <span itemprop="telephone">400-810-6050</span></p>
+  			<p>手机： <span itemprop="telephone">+86-186-1164-4487</span></p>
+  			<p>意见反馈邮箱：<span itemprop="email">dt.dmpizza@gmail.com</span></p>
   			<div class="qr-wrapper"><img src="images/qr-code.png" alt="Drunk Monkey" /></div>
   		</div>
   	</div>
